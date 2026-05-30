@@ -1,0 +1,73 @@
+Backend Java Developer Junior / Desarrollador Backend Java Junior
+
+Ubicación: Modalidad híbrida
+Compañía: Inetum
+
+Sobre el rol:
+Buscamos profesionales en Ingeniería de Sistemas, Informática, Electrónica o carreras afines para integrarse a nuestro equipo de desarrollo de software. Participarás en proyectos del sector bancario desarrollando soluciones basadas en arquitecturas modernas, microservicios y tecnologías empresariales. Trabajarás en entornos de alta exigencia técnica, colaborando con múltiples equipos y contribuyendo a la evolución de plataformas críticas para el negocio.
+
+Requisitos mínimos:
+
+Profesional en Ingeniería de Sistemas, Informática, Electrónica o carreras afines.
+Mínimo 1 año de experiencia desarrollando aplicaciones con Java.
+Experiencia en Spring Boot y arquitectura de microservicios.
+Conocimiento en diseño e implementación de APIs RESTful.
+Manejo de bases de datos relacionales y no relacionales, especialmente Oracle SQL y MongoDB.
+Conocimientos en HTML5, CSS3 y JavaScript o TypeScript.
+Experiencia o familiaridad con frameworks frontend como Angular o React.
+Conocimiento de Git para control de versiones.
+Experiencia con herramientas de construcción y gestión de dependencias como Maven.
+Conocimiento en pruebas unitarias con JUnit y pruebas funcionales con Postman.
+Familiaridad con herramientas de integración continua y calidad de código como Jenkins y SonarQube.
+Conocimiento de metodologías ágiles como Scrum, Kanban o Lean.
+Contar con Tarjeta Profesional.
+
+Responsabilidades clave:
+
+Desarrollar y mantener aplicaciones backend utilizando Java y Spring Boot.
+Diseñar e implementar microservicios y APIs REST siguiendo buenas prácticas de arquitectura.
+Participar en el análisis, desarrollo y mejora continua de soluciones tecnológicas para el sector bancario.
+Identificar oportunidades de mejora y anticiparse a posibles problemas técnicos.
+Colaborar con equipos multidisciplinarios y diferentes áreas del negocio.
+Realizar pruebas unitarias y funcionales para garantizar la calidad del software.
+Participar en procesos de integración continua, despliegue y monitoreo de aplicaciones.
+Aplicar principios de Clean Code y buenas prácticas de desarrollo.
+
+Herramientas y tecnologías:
+
+Java
+Spring Boot
+Microservicios
+APIs REST
+Oracle SQL
+MongoDB
+Git
+Maven
+JUnit
+Postman
+Jenkins
+SonarQube
+HTML5
+CSS3
+JavaScript / TypeScript
+Angular
+React
+Jira
+
+Competencias valoradas:
+
+Comunicación efectiva y trabajo en equipo.
+Proactividad y autonomía.
+Orientación a resultados.
+Capacidad de resolución de problemas complejos.
+Adaptabilidad a entornos híbridos (sistemas legacy y modernos).
+Pensamiento analítico y capacidad para identificar mejoras.
+Compromiso con la calidad y las buenas prácticas de desarrollo.
+
+Beneficios:
+
+Participación en proyectos de alto impacto dentro del sector financiero.
+Trabajo en modalidad híbrida.
+Desarrollo profesional continuo.
+Entorno colaborativo y orientado a la innovación.
+Oportunidad de crecimiento dentro de una compañía global líder en transformación digital.

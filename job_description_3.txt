@@ -1,0 +1,59 @@
+Software Developer Junior / Desarrollador de Software Junior
+
+Ubicación: Presencial o híbrida (según la empresa)
+Compañía: Empresa del sector tecnológico
+
+Sobre el rol:
+Buscamos estudiantes, tecnólogos o recién egresados apasionados por la programación y la tecnología para integrarse a nuestro equipo de desarrollo. Participarás en el diseño, desarrollo y mantenimiento de componentes de software, así como en el soporte y mejora de sistemas internos de la compañía. Tendrás la oportunidad de trabajar con tecnologías modernas y adquirir experiencia práctica en proyectos reales.
+
+Requisitos mínimos:
+
+* Estudiante, tecnólogo o recién egresado de Ingeniería de Sistemas, Ingeniería Electrónica, Ingeniería en Automatización o carreras afines.
+* Conocimientos sólidos en programación con Java.
+* Conocimientos en HTML y JavaScript.
+* Interés por el desarrollo de software y las nuevas tecnologías.
+* Capacidad para resolver problemas de manera lógica y eficiente.
+* Disposición para aprender nuevas herramientas y tecnologías.
+* Habilidad para trabajar en equipo y comunicarse efectivamente.
+* No se requiere experiencia laboral previa o se acepta menos de un año de experiencia.
+
+Responsabilidades clave:
+
+* Participar en el diseño y desarrollo de componentes de software.
+* Apoyar el mantenimiento y soporte de los sistemas internos de la organización.
+* Colaborar con el equipo de desarrollo en la implementación de nuevas funcionalidades.
+* Identificar y solucionar problemas técnicos durante el ciclo de desarrollo.
+* Realizar pruebas y validaciones para garantizar la calidad de las soluciones desarrolladas.
+* Aprender y adaptarse a nuevas tecnologías utilizadas por la compañía.
+
+Tecnologías y herramientas:
+
+* Java
+* HTML
+* JavaScript
+* Android
+* iOS
+* .NET
+* Herramientas de desarrollo de software
+
+Competencias valoradas:
+
+* Pasión por la programación y la tecnología.
+* Aprendizaje rápido y adaptación al cambio.
+* Pensamiento analítico y resolución de problemas.
+* Trabajo en equipo.
+* Proactividad y disposición para asumir nuevos retos.
+* Compromiso con la calidad y mejora continua.
+
+Beneficios:
+
+* Horario flexible compatible con actividades académicas.
+* Ambiente de trabajo colaborativo y dinámico.
+* Oportunidades reales de aprendizaje y crecimiento profesional.
+* Participación en proyectos con tecnologías actuales y de alta demanda en el mercado.
+* Experiencia práctica en entornos de desarrollo profesional.
+
+Proceso de selección:
+
+* Evaluación virtual de conocimientos técnicos y habilidades relacionadas con el desarrollo de software.
+* Entrevistas orientadas a validar competencias técnicas y potencial de crecimiento profesional.

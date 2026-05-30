@@ -1,3 +1,13 @@
+"""
+cv_optimizer.py
+---------------
+Punto de entrada principal del optimizador de CV para ingenieros junior.
+Incluye soporte para:
+  - Optimización de CV con Gemini
+  - Simulador de entrevista técnica (--mock-interview)
+  - Validador de robustez LLM-as-a-Judge (--robustness)
+"""
+
 import os
 import sys
 import argparse
@@ -26,10 +36,15 @@ from renderers import (
 )
 from optimizer import optimize_cv
 
+# Nuevos servicios
+from services.mock_interview import MockInterviewService
+from services.robustness_judge import RobustnessJudgeService
+
+
 def parse_arguments() -> argparse.Namespace:
     """
     Analiza los argumentos de la línea de comandos.
-    
+
     Returns:
         argparse.Namespace: Los argumentos analizados por el parser.
     """
@@ -62,7 +77,22 @@ def parse_arguments() -> argparse.Namespace:
         default="templates/cv_template.html",
         help="Ruta a la plantilla HTML Jinja2 (por defecto: templates/cv_template.html)."
     )
+
+    # ── Nuevos flags ──────────────────────────────────────────────────────────
+    parser.add_argument(
+        "--mock-interview",
+        action="store_true",
+        help="Ejecuta el simulador interactivo de entrevista técnica con Gemini."
+    )
+    parser.add_argument(
+        "--robustness",
+        action="store_true",
+        help="Ejecuta el validador de robustez LLM-as-a-Judge sobre el CV generado."
+    )
+    # ─────────────────────────────────────────────────────────────────────────
+
     return parser.parse_args()
+
 
 def main() -> None:
     """
@@ -71,39 +101,73 @@ def main() -> None:
     print("=" * 60)
     print("      OPTIMIZADOR DE CV PARA INGENIEROS JUNIOR / TRAINEES   ")
     print("=" * 60)
-    
+
     # 1. Analizar argumentos de consola
     args = parse_arguments()
-    
+
     # 2. Cargar perfil de ingeniero junior
     print(f"[INFO] Cargando perfil del ingeniero junior desde: '{args.profile}'...")
     profile = load_profile(args.profile)
-    
+
     # 3. Cargar descripción del trabajo
     print(f"[INFO] Cargando descripción de la oferta laboral en: '{args.job}'...")
     job_description = load_job_description(args.job)
-    
+
+    # ── Feature: Mock Interview ───────────────────────────────────────────────
+    if args.mock_interview:
+        api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+        print("[INFO] Iniciando simulador de entrevista técnica...")
+        service = MockInterviewService(
+            profile=profile,
+            job_description=job_description,
+            api_key=api_key
+        )
+        service.run_interactive()
+        return  # Termina aquí, no genera CV
+    # ─────────────────────────────────────────────────────────────────────────
+
+    # ── Feature: Robustness Judge ─────────────────────────────────────────────
+    if args.robustness:
+        api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+
+        # Primero genera el CV optimizado para auditarlo
+        print("[INFO] Generando CV optimizado para auditar...")
+        optimized_cv = optimize_cv(profile, job_description, args.lang)
+        markdown_content = generate_markdown(optimized_cv, args.lang)
+
+        print("[INFO] Iniciando validador de robustez...")
+        judge = RobustnessJudgeService(
+            profile=profile,
+            job_description=job_description,
+            generated_cv=markdown_content,
+            api_key=api_key
+        )
+        judge.run_validation()
+        return  # Termina aquí
+    # ─────────────────────────────────────────────────────────────────────────
+
     # 4. Optimizar el CV mediante la API de Gemini
     optimized_cv = optimize_cv(profile, job_description, args.lang)
-    
+
     # 5. Generar formato Markdown
     print("[INFO] Generando representación en formato Markdown...")
     markdown_content = generate_markdown(optimized_cv, args.lang)
-    
+
     # 6. Generar formato HTML
     print("[INFO] Generando representación en formato HTML premium...")
     html_content = generate_html(optimized_cv, args.template, args.lang)
-    
+
     # 7. Guardar archivos finales
     save_markdown(markdown_content, args.output)
-    
+
     # Derivar la ruta del archivo HTML reemplazando la extensión .md del output
     html_output_path = os.path.splitext(args.output)[0] + ".html"
     save_html(html_content, html_output_path)
-    
+
     print("=" * 60)
     print("¡Proceso finalizado con éxito! Éxito en tu postulación laboral.")
     print("=" * 60)
+
 
 if __name__ == "__main__":
     main()

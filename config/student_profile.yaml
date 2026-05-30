@@ -3,57 +3,103 @@
 # a las necesidades de la oferta laboral seleccionada sin añadir experiencia ficticia.
 
 personal_info:
-  full_name: "Alejandro Silva Torres"
-  email: "alejandro.silva@ufps.edu.co"
-  phone: "+57 312 345 6789"
+  full_name: "Lizeth Daniela Vargas Barrera"
+  email: "lizethdanielavb@gmail.com"
+  phone: "+57 322 254 8930"
   location: "Cúcuta, Colombia"
-  linkedin: "https://linkedin.com/in/alesilvatorres"
-  github: "https://github.com/alesilvatorres"
+  linkedin: "https://www.linkedin.com/in/lizeth-daniela-vargas-barrera-4a32ba353"
+  github: "https://github.com/LizethDanielaV"
 
 professional_summary: >
-  Ingeniero de Sistemas Junior con fuerte interés en el desarrollo de software,
-  sistemas distribuidos y machine learning. Experiencia práctica a través de proyectos académicos robustos y
-  una pasantía en desarrollo de backend. Apasionado por resolver problemas complejos y escribir código limpio.
+  Estudiante de Ingeniería de Sistemas con experiencia en el desarrollo de aplicaciones web,
+  bases de datos relacionales y desarrollo de APIs REST. He participado en proyectos académicos
+  utilizando tecnologías como Spring Boot, Node.js, React, Kotlin, Docker y microservicios.
+  Además, cuento con conocimientos en análisis de datos mediante Power BI y Excel. Me caracterizo
+  por mi capacidad de aprendizaje autónomo, trabajo en equipo y enfoque en la resolución de
+  problemas mediante soluciones tecnológicas eficientes.
 
 skills:
-  - "Python"
-  - "C++"
+  - "Java"
   - "JavaScript"
-  - "SQL (PostgreSQL)"
-  - "Git y GitHub"
-  - "FastAPI"
+  - "Python"
+  - "Spring Boot"
+  - "Node.js"
+  - "Express"
   - "React"
+  - "HTML"
+  - "CSS"
+  - "Kotlin"
+  - "MySQL"
+  - "PostgreSQL"
+  - "Git y GitHub"
   - "Docker"
-  - "Metodologías Ágiles (Scrum)"
-  - "Desarrollo de API REST"
-  - "Resolución de problemas técnicos"
+  - "RabbitMQ"
+  - "JWT"
+  - "Microservicios"
+  - "APIs REST"
+  - "Power BI"
+  - "Excel"
+  - "Power Query"
+  - "Diagramas UML"
+  - "Pruebas funcionales"
 
 education:
   - institution: "Universidad Francisco de Paula Santander (UFPS)"
     degree: "Ingeniería de Sistemas"
-    start_date: "2022-08"
-    end_date: "2026-06"
+    start_date: "2022-01"
+    end_date: "Actualidad"
     achievements:
-      - "Promedio general sobresaliente: 9.2/10.0"
-      - "Proyecto de fin de carrera: Diseñé e implementé un microservicio de análisis predictivo de tráfico usando Python y FastAPI."
-      - "Miembro activo del Club de Programación Competitiva de la UFPS."
+      - "Participación en múltiples proyectos académicos de desarrollo web y móvil."
+      - "Experiencia práctica en desarrollo backend, frontend y arquitectura de microservicios."
+      - "Aplicación de tecnologías modernas como Spring Boot, React, Docker, RabbitMQ y Kotlin."
 
 experiences:
-  - company: "SoftTech Solutions"
-    role: "Pasante de Desarrollo de Software"
-    start_date: "2025-06"
-    end_date: "2025-12"
-    achievements:
-      - "Colaboré en la migración de un sistema monolítico heredado a microservicios utilizando Python y Docker, mejorando la modularidad del código."
-      - "Optimicé consultas SQL complejas en la base de datos PostgreSQL de desarrollo, reduciendo los tiempos de respuesta de la API en un 15%."
-      - "Implementé pruebas unitarias automatizadas con Pytest logrando un 85% de cobertura de código para los módulos críticos de autenticación."
-      - "Participé activamente en reuniones de Scrum diarias y en la estimación de historias de usuario con el equipo de desarrollo."
-
-  - company: "Facultad de Ingeniería, UFPS"
-    role: "Ayudante de Profesor (Programación Orientada a Objetos)"
-    start_date: "2024-08"
+  - company: "Proyecto Web FitManage"
+    role: "Desarrolladora Full-Stack"
+    start_date: "2025-02"
     end_date: "2025-06"
     achievements:
-      - "Apoyé a un grupo de 40 estudiantes semanales en la asimilación de conceptos avanzados de POO, estructuras de datos y buenas prácticas de diseño de software en C++ y Java."
-      - "Diseñé y califiqué 6 prácticas de laboratorio que modelaban problemas de software del mundo real."
-      - "Brindé asesorías personalizadas de depuración y lógica, ayudando a reducir la tasa de reprobación en un 10% respecto a periodos previos."
+      - "Desarrollé la lógica backend para la gestión de clientes, membresías y control de accesos."
+      - "Diseñé y administré la base de datos garantizando la correcta organización de la información."
+      - "Participé en el desarrollo del frontend e implementé un chatbot basado en IA para generación de rutinas."
+      - "Utilicé Express, MySQL, React y DeepSeek API."
+
+  - company: "Proyecto Web Sigescam"
+    role: "Desarrolladora Backend"
+    start_date: "2025-02"
+    end_date: "2025-06"
+    achievements:
+      - "Desarrollé funcionalidades backend para gestión de inventario, stock y movimientos de productos."
+      - "Diseñé y administré la base de datos para productos, solicitudes y usuarios."
+      - "Implementé módulos para administración de usuarios y solicitudes."
+      - "Trabajé con Express, MySQL y React."
+
+  - company: "Proyecto Académico SisHub"
+    role: "Desarrolladora Backend"
+    start_date: "2025-09"
+    end_date: "2025-12"
+    achievements:
+      - "Participé en el desarrollo backend de una plataforma académica para gestión de proyectos."
+      - "Colaboré en el diseño y creación de la base de datos."
+      - "Implementé funcionalidades basadas en IA para evaluación del progreso de proyectos."
+      - "Utilicé Express, PostgreSQL, React y DeepSeek API."
+
+  - company: "Proyecto de Microservicios"
+    role: "Desarrolladora Backend"
+    start_date: "2025-09"
+    end_date: "2025-12"
+    achievements:
+      - "Participé en la migración de una aplicación monolítica a una arquitectura de cinco microservicios."
+      - "Implementé comunicación síncrona mediante REST y asíncrona mediante RabbitMQ."
+      - "Configuré contenedores Docker y un API Gateway centralizado."
+      - "Aplicación de patrones empresariales y arquitectura distribuida."
+
+  - company: "Proyecto Aplicación Móvil de Gestión de Préstamos"
+    role: "Desarrolladora Full-Stack"
+    start_date: "2026-03"
+    end_date: "Actualidad"
+    achievements:
+      - "Participo en el desarrollo de una aplicación móvil con Kotlin y Spring Boot."
+      - "Implementé autenticación segura basada en JWT."
+      - "Desarrollé funcionalidades para gestión de clientes, zonas y créditos."
+      - "Trabajé con PostgreSQL y control de acceso basado en roles."

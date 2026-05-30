@@ -1,0 +1,25 @@
+Software Engineer Junior / Ingeniera de Software Junior
+
+Ubicación: Modalidad híbrida
+Compañía: Inetum
+
+Sobre el rol:
+Buscamos estudiantes de últimos semestres o recién graduados de Ingeniería de Sistemas apasionados por la tecnología y el desarrollo de software. Formarás parte de un equipo multidisciplinario participando en proyectos de transformación digital, colaborando en el desarrollo, mantenimiento y mejora de soluciones tecnológicas para clientes de distintos sectores.
+
+Requisitos mínimos:
+
+Estudiante de últimos semestres, egresado o profesional en Ingeniería de Sistemas o carreras afines.
+Conocimientos en desarrollo de software y programación orientada a objetos.
+Familiaridad con bases de datos relacionales y lenguaje SQL.
+Conocimiento de control de versiones con Git.
+Comprensión básica de arquitecturas web, APIs REST y metodologías ágiles.
+Capacidad de aprendizaje continuo, trabajo en equipo y resolución de problemas.
+
+Responsabilidades clave:
+
+Participar en el desarrollo, mantenimiento y mejora de aplicaciones de software.
+Colaborar con equipos multidisciplinarios en proyectos de transformación digital.
+Implementar funcionalidades siguiendo buenas prácticas de desarrollo y calidad de código.
+Participar en pruebas, documentación y resolución de incidencias técnicas.
+Contribuir al análisis y optimización de procesos tecnológicos.
+
